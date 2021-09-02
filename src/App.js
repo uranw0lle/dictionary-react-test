@@ -45,8 +45,6 @@ function App() {
 
   }
 
-  console.log(meanings);
-
   useEffect(() => {
     dictionaryApi();
   }, [word, category])
