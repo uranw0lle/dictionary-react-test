@@ -47,7 +47,7 @@ function App() {
 
   useEffect(() => {
     dictionaryApi();
-  }, [word, category])
+  }, ) /* [word, category] */
 
   return (
     <div 
